@@ -36,6 +36,10 @@ body {
 }
 
 /* Header */
+.header {
+  margin-top: 118px;
+}
+
 .nav__link {
   font-family: "Tahoma";
   color: #202020;
@@ -220,6 +224,10 @@ body {
 }
 
 /* About */
+.about {
+  margin-top: 64px;
+}
+
 .about__container {
   padding: 99px 0px 165px 0px;
   display: flex;
@@ -635,6 +643,7 @@ body {
 
   .info-block__name {
     margin-top: 60px;
+    margin-bottom: 13px;
   }
 
   .readers__pictures :nth-child(4),
@@ -667,6 +676,10 @@ body {
 @media screen and (max-width: 650px) {
   .content {
     max-width: 479px;
+  }
+
+  .header {
+    margin-top: 99px;
   }
 
   .menu__burger-links-active {
